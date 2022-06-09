@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.timsk.fure.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "FureMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
