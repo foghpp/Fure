@@ -5,7 +5,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.timsk.fure.item.charm.HungerCharm;
+import ru.timsk.fure.item.charm.*;
+import ru.timsk.fure.item.food.*;
 
 public class FureMod implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
@@ -14,7 +15,11 @@ public class FureMod implements ModInitializer {
 
 	public static final Logger LOGGER = LoggerFactory.getLogger("fure");
 
+	// Charms.
 	public static final HungerCharm HUNGER_CHARM = new HungerCharm();
+
+	// Food.
+	public static final FishSoup FISH_SOUP = new FishSoup();
 
 	@Override
 	public void onInitialize() {
@@ -22,6 +27,12 @@ public class FureMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+		// Charms.
 		Registry.register(Registry.ITEM, new Identifier("fure", "hunger_charm"), HUNGER_CHARM);
+
+		// Food.
+		Registry.register(Registry.ITEM, new Identifier("fure", "fish_soup"), FISH_SOUP);
+
+
 	}
 }
