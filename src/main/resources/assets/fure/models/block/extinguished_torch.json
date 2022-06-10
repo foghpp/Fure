@@ -1,0 +1,6 @@
+{
+  "parent": "fure:block/template_extinguished_torch",
+  "textures": {
+    "extinguished_torch": "fure:block/extinguished_torch"
+  }
+}

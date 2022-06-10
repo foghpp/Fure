@@ -1,4 +1,8 @@
 {
   "item.fure.fish_soup" : "Уха",
-  "item.fure.hunger_charm" : "Амулет голода"
+  "item.fure.hunger_charm" : "Амулет голода",
+  "block.fure.mossy_oak_log" : "Гнилой дуб",
+  "block.fure.mossy_oak_planks" : "Гнилые дубовые доски",
+  "block.fure.extinguished_torch" : "Потухший факел",
+  "block.fure.extinguished_lantern" : "Потухший фонарь"
 }
