@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "FureMixin"
+    "FureMixin",
+    "ItemFinishUsingMixin"
   ],
   "injectors": {
     "defaultRequire": 1

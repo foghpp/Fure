@@ -5,8 +5,12 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.ActionResult;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -54,7 +58,5 @@ public class FureMod implements ModInitializer {
 		Registry.register(Registry.BLOCK, new Identifier("fure", "mossy_oak_planks"), MOSSY_OAK_PLANKS);
 		Registry.register(Registry.ITEM, new Identifier("fure", "mossy_oak_planks"),
 				new BlockItem(MOSSY_OAK_PLANKS, new FabricItemSettings().group(ItemGroup.MISC)));
-
-
 	}
 }
