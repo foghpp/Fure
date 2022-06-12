@@ -12,8 +12,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import ru.timsk.fure.item.charm.HungerCharm;
 
 @Mixin(Item.class)
-public class ItemFinishUsingMixin {
-    @Inject(method = "finishUsing", at = @At("HEAD"))
+public class ItemMixin {
+    @Inject(method = "finishUsing", at = @At("RETURN"))
     private void finishUsing(ItemStack stack, World world, LivingEntity user, CallbackInfoReturnable<ItemStack> cir) {
         if (((Item)(Object)this).equals(Items.ROTTEN_FLESH)) {
             HungerCharm.incrementRottenFleshEatenCount();

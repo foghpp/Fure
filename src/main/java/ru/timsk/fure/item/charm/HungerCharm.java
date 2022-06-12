@@ -26,7 +26,7 @@ public class HungerCharm extends TrinketItem {
                 player.setStatusEffect(effect, player);
             }
 
-            if (rottenFleshEatenCount >= 64 * 2) {
+            if (rottenFleshEatenCount >= 64) {
                 if (player.getHungerManager().getFoodLevel() < 17) {
                     player.getHungerManager().setFoodLevel(17);
                 }
