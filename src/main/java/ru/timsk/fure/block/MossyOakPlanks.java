@@ -2,8 +2,8 @@ package ru.timsk.fure.block;
 
 import net.minecraft.block.Block;
 
-public class ExtinguishedTorch extends Block {
-    public ExtinguishedTorch(Settings settings) {
+public class MossyOakPlanks extends Block {
+    public MossyOakPlanks(Settings settings) {
         super(settings);
     }
 }
