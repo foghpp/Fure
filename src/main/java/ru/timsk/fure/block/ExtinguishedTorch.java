@@ -1,4 +1,9 @@
 package ru.timsk.fure.block;
 
-public class ExtinguishedTorch {
+import net.minecraft.block.Block;
+
+public class ExtinguishedTorch extends Block {
+    public ExtinguishedTorch(Settings settings) {
+        super(settings);
+    }
 }
