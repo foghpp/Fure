@@ -2,5 +2,7 @@
   "item.fure.fish_soup" : "Fish soup",
   "item.fure.hunger_charm" : "Hunger charm",
   "block.fure.mossy_oak_log" : "Mossy oak log",
-  "block.fure.mossy_oak_planks" : "Mossy oak planks"
+  "block.fure.mossy_oak_planks" : "Mossy oak planks",
+  "block.fure.extinguished_torch" : "Extinguished torch",
+  "block.fure.extinguished_lantern" : "Extinguished lantern"
 }
